@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --host 0.0.0.0 --port 5000",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -46,6 +46,7 @@
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "rxjs-compat": "^6.6.3",
+    "slick-carousel": "^1.8.1",
     "ts-loader": "^4.0.0",
     "tslib": "^2.0.0",
     "webpack-node-externals": "^2.5.2",
