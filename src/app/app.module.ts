@@ -9,6 +9,7 @@ import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import {ToastrModule} from 'ngx-toastr';
 import {NgImageSliderModule} from 'ng-image-slider';
 
+
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';

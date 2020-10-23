@@ -13,6 +13,7 @@
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
     "build:client-and-server-bundles": "ng build --prod && ng run tuitionhero:server:production --bundleDependencies all"
   },
+
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.2.0",
