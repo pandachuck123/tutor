@@ -33,7 +33,7 @@ button{
   font-size: 20px;
 }
 .menu{
-  margin-left: 373px;
+  margin-left: 645px;
   margin-top: 25px
 }
 .font{
@@ -55,6 +55,13 @@ button{
   font-size: 23px;
   font-weight: 900;
 }
+.req{
+  background-color: lightseagreen;
+  height: 60px;
+  width: 220px;
+  border-radius: 45%;
+  margin-top: 50px;
+}
 
 //section2
 .section2{
@@ -66,12 +73,23 @@ button{
   margin-bottom: 40px
 }
 .img1{
-  margin-left: 85px
+  margin-left: 50px
 }
 .img2{
-  margin-left: 711px;
-  margin-top: -361px
+  margin-left: 700px;
+  margin-top: -574px;
 }
+.para{
+  width: 475px;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+.para1{
+  width: 475px;
+  margin-left: 718px;
+  margin-top: -120px;
+}
+
 
 ////mobile
 @media (max-width: 600px) {
