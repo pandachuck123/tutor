@@ -1,0 +1,90 @@
+video {
+  max-width: 100%;
+  height: auto;
+  filter: brightness(0.802);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.parent-container {
+  position: relative;
+}
+
+.video-container {
+  z-index: -1;
+}
+
+.welcome {
+  position: absolute;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+  color: white;
+}
+button{
+  font-size: 20px;
+}
+.menu{
+  margin-left: 373px;
+  margin-top: 25px
+}
+.font{
+  margin-left: 65px;
+  margin-top: 169px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.font1{
+  margin-left: 10px;
+  margin-top: 100px;
+  font-size: 45px;
+  font-weight: 900;
+}
+.font2{
+  margin-left: 10px;
+  margin-top: 32px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+
+////mobile
+@media (max-width: 600px) {
+  .w-100{
+    width: 100%;
+  }
+  .menu{
+    margin-left: 0px;
+    margin-top: 3px
+  }
+  button{
+    font-size: 12px;
+  }
+  .font{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .font1{
+    margin-left: 0px;
+    margin-top: -14px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .font2{
+    margin-left: 0px;
+    margin-top: -24px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+}
