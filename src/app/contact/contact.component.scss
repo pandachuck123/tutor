@@ -1,80 +1,8 @@
-.header{
-  background-color: darkblue;
-  height: 70px;
-}
-.welcome {
-  color: white;
-
-}
-.menu{
-  margin-left: 645px;
-  text-align: center;
-}
-button{
-  font-size: 20px;
-  margin-top: 12px;
-
-}
 
 
 
-//footer
-.footer{
-  color: floralwhite;
-  background-color: darkblue;
-  margin-top: 100px;
-  height: 100px;
-}
-.footertext{
-  margin-left: 365px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.footertext1{
-  margin-left: 555px;
-}
 
 
 
-////mobile
-@media (max-width: 600px) {
-  .header{
-    background-color: darkblue;
-    height: 70px;
-    width: 175%;
-
-  }
-  .welcome {
-    color: white;
-
-  }
-  .menu{
-    margin-left: 0px;
-
-  }
-  button{
-    font-size: 20px;
-    margin-top: 12px;
-
-  }
 
 
-
-  //footer
-  .footer{
-    color: floralwhite;
-    background-color: darkblue;
-    margin-top: 100px;
-    height: 100px;
-    width: 175%;
-  }
-  .footertext{
-    margin-left: 39px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .footertext1{
-    margin-left: 232px;
-  }
-
-}

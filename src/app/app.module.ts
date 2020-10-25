@@ -8,6 +8,7 @@ import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import {ToastrModule} from 'ngx-toastr';
 import {NgImageSliderModule} from 'ng-image-slider';
+import {NgtUniversalModule} from '@ng-toolkit/universal';
 
 
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
@@ -44,9 +45,12 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
-import { HomeComponent } from './home/home.component';
+import {HomeComponent} from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { PrivatePolicyTermComponent } from './home/private-policy-term/private-policy-term.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +58,10 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     ContactComponent,
     AboutComponent,
+    // PrivatePolicyDialog,
+    PrivatePolicyTermComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'tuition-hero' }),
@@ -65,6 +73,7 @@ import { AboutComponent } from './about/about.component';
     NgImageSliderModule,
     BrowserAnimationsModule,
     CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory }),
+    NgtUniversalModule,
 
     MatSliderModule,
     MatProgressSpinnerModule,
@@ -108,5 +117,8 @@ import { AboutComponent } from './about/about.component';
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
+  entryComponents: [
+    // PrivatePolicyDialog
+  ]
 })
 export class AppModule { }

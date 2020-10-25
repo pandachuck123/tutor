@@ -89,31 +89,45 @@ button{
   margin-left: 718px;
   margin-top: -120px;
 }
-///footer
-.footer{
-  color: floralwhite;
-  background-color: darkblue;
-  margin-top: 100px;
-  height: 100px;
-}
-.footertext{
-  margin-left: 365px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-.footertext1{
-  margin-left: 555px;
-
-}
+/////footer
+//.footer{
+//  color: floralwhite;
+//  background-color: darkblue;
+//  margin-top: 100px;
+//  height: 100px;
+//}
+//.footertext{
+//  margin-left: 365px;
+//  margin-top: 0px;
+//  margin-bottom: 0px;
+//}
+//.footertext1{
+//  margin-left: 555px;
+//  cursor:pointer;
+//  //text-decoration: underline
+//
+//}
 
 
 ////mobile
 @media (max-width: 600px) {
+  video {
+    max-width: 642px;
+    height: auto;
+    filter: brightness(0.802);
+  }
   .row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 645px;
+    width: 642px;
+  }
+  .welcome {
+    position: absolute;
+    display: table-cell;
+    vertical-align:middle;
+    text-align:center;
+    color: white;
   }
   .w-100{
     width: 100%;
@@ -163,22 +177,5 @@ button{
     margin-left: 60px;
     margin-top: 80px;
   }
-
-  .footer{
-    color: floralwhite;
-    background-color: darkblue;
-    margin-top: 100px;
-    height: 100px;
-    width: 175%;
-  }
-  .footertext{
-    margin-left: 39px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .footertext1{
-    margin-left: 232px;
-  }
-
 
 }
