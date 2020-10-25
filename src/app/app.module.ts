@@ -46,12 +46,14 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'tuition-hero' }),

@@ -1,0 +1,111 @@
+<section>
+  <div class="row parent-container">
+    <div class="welcome">
+      <div  class="menu" >
+        <button mat-button  routerLink="/Home" >Home</button>
+        <mat-menu ></mat-menu>
+        <button mat-button [matMenuTriggerFor]="requestMenu">Request A Tutor</button>
+        <mat-menu #requestMenu="matMenu" yPosition="below">
+          <button mat-menu-item>Customer Details</button>
+          <button mat-menu-item>Subject,Standard & Syllabus </button>
+          <button mat-menu-item>Prices per hour </button>
+        </mat-menu>
+
+        <button mat-button [matMenuTriggerFor]="aboutMenu" routerLink="/about-us">About Us </button>
+        <mat-menu #aboutMenu="matMenu" xPosition="before">
+          <button mat-menu-item>Brand Story</button>
+          <button mat-menu-item>Subjects,Class & Syllabus</button>
+          <button mat-menu-item>Vision Mission</button>
+          <button mat-menu-item>Testimony</button>
+          <button mat-menu-item>Tutor Details</button>
+          <button mat-menu-item>Founder Note </button>
+          <button mat-menu-item>FAQ</button>
+        </mat-menu>
+        <button mat-button routerLink="/contact-us">Contact Us</button>
+        <mat-menu ></mat-menu>
+      </div>
+      <h5 class="font">TUITION HERO</h5>
+
+    </div>
+    <div class="container-fluid">
+      <figure class="container-fluid">
+        <img src="assets/img/aboutus.jpg" alt="About us" style="width: 1447px; height: 366px;">
+
+      </figure>
+
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2 class="heading">What We Do</h2>
+
+
+  <div>
+
+    <p class="text parag">
+      Tuition Hero is a full service home tuition agency. We aim to help students achieve learning excellence by matching them with the right<br>
+      professional tutors to suit their learning needs.
+    </p>
+    <p class="text parag">
+      Our tutors provide learning environment that is conducive, by conducting classes in one-to-one or small group formats. This ensures
+      <br> each student is nurtured with adequate attention based on their learning pace, maximising their potential to thrive.
+
+
+    </p>
+  </div>
+  </div>
+
+  <div class="container">
+    <h2 class="heading">Our goals and values</h2>
+
+
+  <div>
+
+    <p class="text parag">
+      Connect the best tutors to students, provide best guidance in student’s learning pace and needs.
+    </p>
+    <p class="text parag">
+      Reliability – We curate a tutor list based on understanding parents/students’ request on their preferable teaching methods.
+    </p>
+    <p class="text parag">
+      Innovation – We continuously help to manage parents/tutors using a designated model to ensure quality assurance.
+    </p>
+    <p class="text parag">
+      Efficiency – We try our best to match our client’s expectations with the right tutor in shortest possible time.
+    </p>
+  </div>
+  </div>
+
+</section>
+<div class="container">
+  <h3 class="heading"> CONTACT US</h3>
+  <div>
+  <mat-form-field class="w-100"  appearance="fill">
+    <mat-label>Name</mat-label>
+    <input matInput  required>
+  </mat-form-field>
+  </div>
+  <div>
+  <mat-form-field class="w-100" appearance="fill">
+    <mat-label>Phone Number</mat-label>
+    <input matInput  required>
+  </mat-form-field></div>
+  <div>
+  <mat-form-field class="w-100" appearance="fill">
+    <mat-label>Subject</mat-label>
+    <input matInput required>
+  </mat-form-field></div>
+  <div>
+  <mat-form-field class="w-100" appearance="fill">
+    <mat-label>Message</mat-label>
+    <textarea matInput required></textarea>
+  </mat-form-field></div>
+  <button mat-button>Submit</button>
+
+
+</div>
+
+<section>
+
+</section>

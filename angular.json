@@ -40,7 +40,6 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/slick-carousel/slick/slick.min.js"
-
             ]
           },
           "configurations": {
@@ -168,5 +167,8 @@
       }
     }
   },
-  "defaultProject": "tuitionhero"
+  "defaultProject": "tuitionhero",
+  "cli": {
+    "analytics": "9db5afbc-cb4f-4037-a94e-442fa6138de3"
+  }
 }

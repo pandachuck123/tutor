@@ -1,0 +1,132 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 101.2%
+}
+
+.w-100 {
+  width: 100%;
+}
+.heading{
+  font-family: "adobe-garamond-pro";
+  font-size: 32px;
+  margin-top: 125px;
+  //padding-left: 664px;
+  text-align: center;
+  font-weight: bold;
+  white-space: pre-wrap;
+}
+.text{
+  text-align: center;
+  white-space: pre-wrap;
+  font-family: "adobe-garamond-pro";
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26,26,26,.7);
+
+
+}
+.parag{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px
+}
+
+.parent-container {
+  position: relative;
+}
+
+.img-container {
+  z-index: -1;
+}
+
+.welcome {
+  position: absolute;
+  display: table-cell;
+  vertical-align:middle;
+  text-align:center;
+  color: white;
+}
+button{
+  font-size: 20px;
+}
+.menu{
+  margin-left: 645px;
+  margin-top: 25px
+}
+.font{
+  margin-left: 65px;
+  margin-top: 169px;
+  font-size: 102px;
+  font-weight: 700;
+}
+
+.font1{
+  margin-left: 10px;
+  margin-top: 100px;
+  font-size: 45px;
+  font-weight: 900;
+}
+.font2{
+  margin-left: 10px;
+  margin-top: 32px;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+//section2
+
+
+
+
+////mobile
+@media (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 645px;
+  }
+  .w-100{
+    width: 100%;
+  }
+  .menu{
+    margin-left: 0px;
+    margin-top: 3px
+  }
+  button{
+    font-size: 12px;
+  }
+  .font{
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .font1{
+    margin-left: 0px;
+    margin-top: -14px;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  .font2{
+    margin-left: 0px;
+    margin-top: -24px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  //section2..
+  .font3{
+    margin-left: 175px;
+    font-size: 35px;
+    margin-bottom: 40px
+  }
+
+}
