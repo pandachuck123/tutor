@@ -55,6 +55,7 @@ import { FooterComponent } from './footer/footer.component';
 import {fab} from '@fortawesome/free-brands-svg-icons';
 import {fas} from '@fortawesome/free-solid-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
+import { RequestTutorComponent } from './request-tutor/request-tutor.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import {far} from '@fortawesome/free-regular-svg-icons';
     PrivatePolicyTermComponent,
     HeaderComponent,
     FooterComponent,
+    RequestTutorComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'tuition-hero' }),
