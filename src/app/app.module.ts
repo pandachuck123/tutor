@@ -9,7 +9,8 @@ import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import {ToastrModule} from 'ngx-toastr';
 import {NgImageSliderModule} from 'ng-image-slider';
 import {NgtUniversalModule} from '@ng-toolkit/universal';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
 
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatBadgeModule} from '@angular/material/badge';
@@ -51,6 +52,9 @@ import { AboutComponent } from './about/about.component';
 import { PrivatePolicyTermComponent } from './home/private-policy-term/private-policy-term.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import {fab} from '@fortawesome/free-brands-svg-icons';
+import {fas} from '@fortawesome/free-solid-svg-icons';
+import {far} from '@fortawesome/free-regular-svg-icons';
 
 @NgModule({
   declarations: [
@@ -61,7 +65,7 @@ import { FooterComponent } from './footer/footer.component';
     // PrivatePolicyDialog,
     PrivatePolicyTermComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'tuition-hero' }),
@@ -74,6 +78,7 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     CalendarModule.forRoot({ provide: DateAdapter, useFactory: adapterFactory }),
     NgtUniversalModule,
+    FontAwesomeModule,
 
     MatSliderModule,
     MatProgressSpinnerModule,
@@ -121,4 +126,8 @@ import { FooterComponent } from './footer/footer.component';
     // PrivatePolicyDialog
   ]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {
+    library.add(fas, far, fab );
+  }
+}
