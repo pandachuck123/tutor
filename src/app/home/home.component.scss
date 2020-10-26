@@ -120,7 +120,8 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 642px;
+    //width: 642px;
+    width: 375px;
   }
   .welcome {
     position: absolute;
@@ -128,6 +129,7 @@ button{
     vertical-align:middle;
     text-align:center;
     color: white;
+    margin-top: -12px;
   }
   .w-100{
     width: 100%;
@@ -138,6 +140,8 @@ button{
   }
   button{
     font-size: 12px;
+    width: 134px;
+    margin-top: 1px;
   }
   .font{
     margin-left: 0px;
@@ -160,22 +164,35 @@ button{
 
   //section2..
   .font3{
-    margin-left: 175px;
-    font-size: 35px;
-    margin-bottom: 40px
+    margin-left: 39px;
+    font-size: 30px;
+    margin-bottom: 40px;
   }
   .img1{
-    margin-left: 60px
+    //margin-left: 60px
+    margin-left: 0px;
+    width: 319px;
   }
   .img2{
-    margin-left: 60px;
-    margin-top: 80px
+    //margin-left: 60px;
+    //margin-top: 80px
+    margin-left: 0px;
+    margin-top: 80px;
+    width: 309px;
+  }
+  .para{
+    //margin-left: -71px;
+    margin-left: 5px;
+    width: 318px;
   }
 
   .para1{
-    width: 475px;
-    margin-left: 60px;
-    margin-top: 80px;
+    //width: 475px;
+    //margin-left: 60px;
+    //margin-top: 80px;
+    width: 310px;
+    margin-left: 2px;
+    margin-top: 24px;
   }
 
 }

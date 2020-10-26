@@ -1,37 +1,55 @@
-<section class="header">
-  <div class="welcome">
-    <div  class="menu" >
-      <button mat-button  routerLink="/Home" >Home</button>
-      <mat-menu ></mat-menu>
-      <button mat-button [matMenuTriggerFor]="requestMenu">Request A Tutor</button>
-      <mat-menu #requestMenu="matMenu" yPosition="below">
-        <button mat-menu-item>Customer Details</button>
-        <button mat-menu-item>Subject,Standard & Syllabus </button>
-        <button mat-menu-item>Prices per hour </button>
-      </mat-menu>
+<!--<section class="header">-->
+  <!--<div class="welcome">-->
+    <!--<div  class="menu" >-->
+      <!--<button mat-button  routerLink="/Home" >Home</button>-->
+      <!--<mat-menu ></mat-menu>-->
+      <!--<button mat-button [matMenuTriggerFor]="requestMenu">Request A Tutor</button>-->
+      <!--<mat-menu #requestMenu="matMenu" yPosition="below">-->
+        <!--<button mat-menu-item>Customer Details</button>-->
+        <!--<button mat-menu-item>Subject,Standard & Syllabus </button>-->
+        <!--<button mat-menu-item>Prices per hour </button>-->
+      <!--</mat-menu>-->
 
-      <button mat-button [matMenuTriggerFor]="aboutMenu" routerLink="/about-us">About Us </button>
-      <mat-menu #aboutMenu="matMenu" xPosition="before">
-        <button mat-menu-item>Brand Story</button>
-        <button mat-menu-item>Subjects,Class & Syllabus</button>
-        <button mat-menu-item>Vision Mission</button>
-        <button mat-menu-item>Testimony</button>
-        <button mat-menu-item>Tutor Details</button>
-        <button mat-menu-item>Founder Note </button>
-        <button mat-menu-item>FAQ</button>
-      </mat-menu>
-      <button mat-button routerLink="/Contact-us">Contact Us</button>
-      <mat-menu ></mat-menu>
-    </div>
+      <!--<button mat-button [matMenuTriggerFor]="aboutMenu" routerLink="/about-us">About Us </button>-->
+      <!--<mat-menu #aboutMenu="matMenu" xPosition="before">-->
+        <!--<button mat-menu-item>Brand Story</button>-->
+        <!--<button mat-menu-item>Subjects,Class & Syllabus</button>-->
+        <!--<button mat-menu-item>Vision Mission</button>-->
+        <!--<button mat-menu-item>Testimony</button>-->
+        <!--<button mat-menu-item>Tutor Details</button>-->
+        <!--<button mat-menu-item>Founder Note </button>-->
+        <!--<button mat-menu-item>FAQ</button>-->
+      <!--</mat-menu>-->
+      <!--<button mat-button routerLink="/Contact-us">Contact Us</button>-->
+      <!--<mat-menu ></mat-menu>-->
+    <!--</div>-->
 
-  </div>
-</section>
-
-
-
-
-
-<!--<section class="footer">-->
-  <!--<h2 class="footertext">Copyright © 2015-2020 Hero Education Sdn Bhd (1200990-X)</h2>-->
-  <!--<p  class="footertext1">Privacy Policy Terms of use</p>-->
+  <!--</div>-->
 <!--</section>-->
+
+
+<nav class="nav-area">
+  <ul>
+    <li><a href="/Home">HOME</a></li>
+    <li class="drop-down"><a>Request A Tutor</a>
+      <ul >
+        <li class="dropdown1" ><a href="/">Customer Details</a></li>
+        <li class="dropdown2" ><a href="/">Subject , Standard & Syllabus</a></li>
+        <li class="dropdown3" ><a href="/">Prices per hour</a></li>
+      </ul>
+    </li>
+    <li class="drop-down"><a>About Us</a>
+      <ul >
+        <li class="dropdown1" ><a href="/about-us">Brand Story</a></li>
+        <li class="dropdown2" ><a href="/about-us">Subjects , Class & Syllabus</a></li>
+        <li class="dropdown3" ><a href="/about-us">Vision Mission</a></li>
+        <li class="dropdown4" ><a href="/about-us">Tutor Details</a></li>
+        <li class="dropdown5" ><a href="/about-us">Founder Note</a></li>
+        <li class="dropdown6" ><a href="/about-us">FAQ</a></li>
+      </ul>
+    </li>
+    <li><a href="/Contact-us">Contact Us</a></li>
+  </ul>
+</nav>
+
+
